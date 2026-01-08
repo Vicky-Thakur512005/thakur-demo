@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Computer Courses</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 30px;
+      background-color: #f5f5f5;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .columns {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .heading {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      color: #c1121f;
+      margin-bottom: 20px;
+    }
+
+    .paragraph {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .list {
+      list-style-type: disc;
+      padding-left: 20px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .list li {
+      margin-bottom: 10px;
+    }
+
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .course-box {
+      background-color: #fefefe;
+      border: 2px solid #ddd;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    }
+
+    .course-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      color: #023047;
+      margin-bottom: 10px;
+    }
+
+    .course-duration {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .course-list {
+      list-style-type: circle;
+      padding-left: 20px;
+      font-size: 15px;
+    }
+
+    .course-list li {
+      margin-bottom: 6px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .columns {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <!-- About Us & Why Join Us -->
+    <div class="columns">
+      <div class="column">
+        <div class="heading">About Us</div>
+        <div class="paragraph">
+          We are a professionally managed and well-equipped computer training institute with latest infrastructure and facilities.
+          Our mission is to provide high-quality computer education at an affordable fee. Our aim is to develop global professionals
+          with a positive outlook, leadership qualities, and moral values. We provide career-oriented computer courses. Our curriculum
+          is based on current industry standards which helps the students to be future-ready. Our faculty consists of highly qualified
+          and experienced professionals. We also provide career guidance and Government recognized certificates.
+        </div>
+      </div>
+      <div class="column">
+        <div class="heading">Why Join Us</div>
+        <ul class="list">
+          <li>Govt. Recognized Certificate</li>
+          <li>Courses from Basic to Advanced Level</li>
+          <li>Job Oriented Courses</li>
+          <li>Reasonable Fees</li>
+          <li>Special Focus on Practical Training</li>
+          <li>Experienced & Qualified Faculty</li>
+          <li>Flexible Class Timings</li>
+          <li>Free Study Material</li>
+          <li>Extra Classes for Weak Students</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Courses Section -->
+    <div class="course-grid">
+
+      <div class="course-box">
+        <div class="course-title">DTP (Basic)</div>
+        <div class="course-duration">Duration: 3 Months</div>
+        <ul class="course-list">
+          <li>Computer Fundamentals</li>
+          <li>Typing (Hindi/English)</li>
+          <li>Windows</li>
+          <li>MS Paint</li>
+          <li>MS Word</li>
+          <li>MS Excel</li>
+          <li>MS PowerPoint</li>
+          <li>Internet & E-Mail</li>
+        </ul>
+      </div>
+
+      <div class="course-box">
+        <div class="course-title">ADCA - Advance Diploma in Computer Application</div>
+        <div class="course-duration">Duration: 12 Months</div>
+        <ul class="course-list">
+          <li>Semester I: Fundamentals, MS Office, Internet</li>
+          <li>Semester II: HTML, CSS, JS, Tally, VB, C, CorelDraw, Photoshop, Accounting</li>
+        </ul>
+      </div>
+
+      <div class="course-box">
+        <div class="course-title">ADFA - Advance Diploma in Financial Accounting</div>
+        <div class="course-duration">Duration: 12 Months</div>
+        <ul class="course-list">
+          <li>Semester I: Computer Basics, Typing, MS Office</li>
+          <li>Semester II: Tally, Busy Software, TDS, PF, ESI, Excel for Bank Reconcile</li>
+        </ul>
+      </div>
+
+      <div class="course-box">
+        <div class="course-title">ADWP - Advance Diploma in Web Programming</div>
+        <div class="course-duration">Duration: 12 Months</div>
+        <ul class="course-list">
+          <li>HTML, CSS, JavaScript</li>
+          <li>Photoshop, CorelDraw</li>
+          <li>Web Design Concepts, Hosting</li>
+          <li>WordPress, Project Work</li>
+        </ul>
+      </div>
+
+      <div class="course-box">
+        <div class="course-title">ADWD - Advance Diploma in Web Designing & Development</div>
+        <div class="course-duration">Duration: 12 Months</div>
+        <ul class="course-list">
+          <li>HTML, CSS, JS, Photoshop, CorelDraw</li>
+          <li>Web Hosting, WordPress</li>
+          <li>PHP, MySQL, ASP.NET</li>
+          <li>C#, Java, Live Project</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
