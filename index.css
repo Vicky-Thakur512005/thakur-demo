@@ -1,159 +1,59 @@
-  .container{
-    width: 1500px;
-     font-family: 'Great Vibes', ;
-
-     background-color:#ffec5e;
-   
-   
- }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(87, 88, 88);
+html,body{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
 }
-.g15{
-  font-family: 'Great Vibes', cursive;
-  font-size: x-large;
-}
-
-.row {
-  display: flex;
-
-}
-
-.column1 {
-  flex: 50px;
-  padding: 20px;
-  box-sizing: border-box;
-  border: 5px solid white;
-  background-color: aqua;
-}
-
-
-.left {
-  background-color: #ffec5e;
-  border: 5px solid #ffec5e;
-}
-
-.middle {
-  background-color: #ffec5e;
-  border: 5px solid #ffec5e;
-  margin-top: 50px;
-}
-
-.right {
-  background-color:#ffec5e;
+.img1{
+    background-image: url(image/image1.png);
+    min-height: 100%;
   
-  border: 5px solid #ffec5e;
 }
-    .ram{
-        margin-top: 10px;
-         font-family: 'Great Vibes',cursive;
-    }
-    .f1{
-       font-family: 'Great Vibes', cursive;
-        border: 1px solid black;
-        color: rgb(220, 215, 215);
-        background-color: black;
-        border-radius: 5px;
-    }
-    .g1{
-      margin-left:230px ;
-    }
-        .job-circle {
-          margin-left: 250px;
-      width: 100px;
-      height: 100px;
-      background-color: rgb(117, 126, 246); /* red background like in the image */
-      color: #fff;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-family: Arial, sans-serif;
-      font-size: 12px;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-    .why-title {
-      font-family: 'Great Vibes', cursive;
-      font-size: 36px;
-      text-align: center;
-      color: #181717; /* reddish tone like the image */
-      margin-bottom: 20px;
-    }
-    .h1{
-margin-left: 125px;
-    }
-     .h2{
-      margin-left: 170px;
-    }
-     .h3{
-       margin-left: 142px;
-    }
-     .h4{
-       margin-left: 142px;
-    }
-     .h5{
-       margin-left: 200px;
-    }
-     .h6{
-       margin-left: 195px;
-    }
-     .h7{
-       margin-left: 142px;
-    }
+.img2{
+    background-image: url(image/image2.png);
+    min-height: 400px;
+  
+}
+.img3{
+    background-image: url(image/image3.png);
+  min-height: 400px;
+  
+}
+.img1,.img2,.img3{
+      position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text1{
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+color: black;
+font-size: 27px;
+letter-spacing: 8px;
+text-transform: uppercase;
 
-     .h8{
-       margin-left: 135px;
-    } .h10{
-        margin-left: 250px;
-    }
-     .h11{
-       margin-left: 250px;
-    } .h12{
-       margin-left: 142px;
-    } .h13{
-       margin-left: 25px;
-    } .h14{
-       margin-left: 250px;
-    } .h15{
-       margin-left: 248px;
-    } .h16{
-       margin-left: 250px;
-    } .h17{
-       margin-left: 250px;
-    } .h18{
-       margin-left: 250px;
-    } .h19{
-       margin-left: 210px;
-    } .h20{
-       margin-left: 240px;
-    } .h21{
-       margin-left: 130px;
-    } .h22{
-       margin-left: 92px;
-    } .h23{
-       margin-left: 210px;
-    } .h24{
-       margin-left: 250px;
-    } .h25{
-       margin-left: 142px;
-    } .h26{
-       margin-left: 112px;
-    } .h27{
-       margin-left: 200px;
-    } .h28{
-       margin-left: 200px;
-    } .h29{
-       margin-left: 182px;
-    } .h30{
-       margin-left: 192px;
-    } .h31{
-       margin-left: 142px;
-    } .h32{
-       margin-left: 142px;
-    } 
+}
+.textbg{
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+     background-color: #282e34;
+    color: #ddd;
+}
